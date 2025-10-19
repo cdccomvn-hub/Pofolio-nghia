@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Code2, Server, Layers, ChevronDown } from 'lucide-react';
 import { Phone } from 'lucide-react';
+import Logo from "../logo.jpg"
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -44,9 +45,22 @@ function App() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50 transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex-shrink-0 font-bold text-xl text-slate-800">
-              <Code2 className="inline-block mr-2 text-emerald-600" size={28} />
-              Portfolio Freelancer
+            <div className="flex items-center gap-2 font-bold text-xl text-slate-800">
+              {/* <Code2 className="inline-block mr-2 text-emerald-600" size={28} /> */}
+              <img
+                src={Logo}
+                alt="Your Brand"
+                className="
+                  h-9 w-auto object-contain mr-2 shrink-0 select-none
+                  rounded-xl ring-1 ring-emerald-200/60
+                  drop-shadow
+                  transition-transform duration-200 hover:scale-105 active:scale-95
+                  bg-white/40 backdrop-blur-sm        
+                "
+              />
+              <p className="m-0">
+                Portfolio Freelancer
+              </p>
             </div>
 
             {/* Desktop Menu */}
