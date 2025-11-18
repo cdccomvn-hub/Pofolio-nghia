@@ -338,16 +338,16 @@ function App() {
                 {/* <div className="font-medium text-slate-800 text-center">ntn8530@gmail.com</div> */}
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://www.linkedin.com/in/tr%E1%BB%8Dng-ngh%C4%A9a-nguy%E1%BB%85n-2b0375398/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 rounded-xl hover:bg-slate-50 transition-colors group"
               >
                 <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-slate-200 transition-colors">
-                  <Github size={28} className="text-slate-700" />
+                  <Linkedin size={28} className="text-slate-700" />
                 </div>
-                <div className="text-sm text-slate-500 mb-1">GitHub</div>
-                <div className="font-medium text-slate-800">@Nghia251506</div>
+                <div className="text-sm text-slate-500 mb-1">Linkedin</div>
+                <div className="font-medium text-slate-800">@NguyenTrongNghia</div>
               </a>
               <a
                 href="https://linkedin.com/in/yourprofile"
